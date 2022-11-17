@@ -14,7 +14,7 @@ new_relic:
   license_key:
     secret: newrelic
     key: license_key
-    
+
 image:
   repository: ghcr.io/not-a-real-repo
   pullPolicy: IfNotPresent
@@ -23,7 +23,7 @@ image:
 
 imagePullSecrets: []
 nameOverride: ""
-fullnameOverride: ""
+fullnameOverride: "mysql"
 
 serviceAccount:
   # Specifies whether a service account should be created
