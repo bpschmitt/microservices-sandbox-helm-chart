@@ -3,12 +3,25 @@ entries:
   microservices-sandbox:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-11-16T23:01:57.851203-06:00"
+    created: "2022-11-16T23:25:02.268345-06:00"
+    dependencies:
+    - name: mysql
+      repository: ./charts/mysql
+      version: 1.0.0
+    - name: customers
+      repository: ./charts/customers
+      version: 1.0.0
+    - name: gateway
+      repository: ./charts/gateway
+      version: 1.0.0
+    - name: superheroes
+      repository: ./charts/superheroes
+      version: 1.0.0
     description: A Helm chart for the New Relic Microservices Sandbox
-    digest: f89b6ed0e60244ea83936f107963d48d6a3628846c1e327619c431629c5947a3
+    digest: 56620c7f9843595312ffce12fcf9031ec7ab03647fbefa7c798c07d4c9c8d6f1
     name: microservices-sandbox
     type: application
     urls:
-    - https://bpschmitt.github.io/microservices-sndbox-helm-chart/microservices-sandbox-0.1.0.tgz
+    - https://bpschmitt.github.io/microservices-sandbox-helm-chart/microservices-sandbox-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-16T23:01:57.849702-06:00"
+generated: "2022-11-16T23:25:02.263688-06:00"
