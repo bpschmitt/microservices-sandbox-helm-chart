@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  customers:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T04:53:43.711451774Z"
+    description: Microservices Sandbox - Customers Service
+    digest: 4bfef38a4e3a8d6fede376fac63032bd85bb6dacc3cf8932b0ec78b4bd43da2d
+    name: customers
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/customers-1.0.3/customers-1.0.3.tgz
+    version: 1.0.3
+  gateway:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T04:53:43.867660658Z"
+    description: Microservices Sandbox - Gateway Service
+    digest: 2dc5108faac9e88c058abe1c9117f0387243e9dce0ae752ab4e8732a0eba6081
+    name: gateway
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/gateway-1.0.3/gateway-1.0.3.tgz
+    version: 1.0.3
+  mysql:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T04:53:44.009116599Z"
+    description: Microservices Sandbox - MySQL Service
+    digest: e1107545f63bbc148c1eb45583fad48247867b6e9c22ef33633c868535cb1aa8
+    name: mysql
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/mysql-1.0.3/mysql-1.0.3.tgz
+    version: 1.0.3
+  superheroes:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T04:53:44.183068477Z"
+    description: Microservices Sandbox - Superheroes Service
+    digest: d1c94c0757e3ca1c32b319733e5335617cdb7c54b06ed9faaf26fae79d0e945e
+    name: superheroes
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/superheroes-1.0.3/superheroes-1.0.3.tgz
+    version: 1.0.3
+generated: "2022-11-18T04:53:44.183077677Z"
