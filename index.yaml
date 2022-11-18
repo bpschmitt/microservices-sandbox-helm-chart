@@ -1,5 +1,27 @@
 apiVersion: v1
 entries:
+  customers:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T03:47:32.062120853Z"
+    description: A Helm chart for Kubernetes
+    digest: d1e8221079f33b7d772dd9f403f204b29217d30c4f861acd0e5593c3dfaa00aa
+    name: customers
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/customers-1.0.0/customers-1.0.0.tgz
+    version: 1.0.0
+  gateway:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T03:47:32.214854171Z"
+    description: A Helm chart for Kubernetes
+    digest: b11fa6f89fa5e3853aeb819aa82d3912594ffd5732b02af6f95953aeb4f81621
+    name: gateway
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/gateway-1.0.0/gateway-1.0.0.tgz
+    version: 1.0.0
   microservices-sandbox:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -24,4 +46,26 @@ entries:
     urls:
     - https://bpschmitt.github.io/microservices-sandbox-helm-chart/microservices-sandbox-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-17T17:51:46.166797-06:00"
+  mysql:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T03:47:32.376964084Z"
+    description: A Helm chart for Kubernetes
+    digest: 82b442eec624edf4afa2e05f11ad249dbce0e00fa00d58a9399845bd2a648abe
+    name: mysql
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/mysql-1.0.0/mysql-1.0.0.tgz
+    version: 1.0.0
+  superheroes:
+  - apiVersion: v2
+    appVersion: v1.0.0
+    created: "2022-11-18T03:47:32.540455896Z"
+    description: A Helm chart for Kubernetes
+    digest: e31e2d588535926606310980f2e70e3ec0b88537635d188cf2c8743ff9fac0d3
+    name: superheroes
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/superheroes-1.0.0/superheroes-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-11-18T03:47:32.540521296Z"
