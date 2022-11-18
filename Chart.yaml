@@ -25,14 +25,14 @@ appVersion: "1.16.0"
 
 dependencies:
 - name: mysql
-  version: "1.0.1"
+  version: "1.0.2"
   repository: "https://bpschmitt.github.io/microservices-sandbox-helm-chart"
 - name: customers
-  version: "1.0.1"
+  version: "1.0.2"
   repository: "https://bpschmitt.github.io/microservices-sandbox-helm-chart"
 - name: gateway
-  version: "1.0.1"
+  version: "1.0.2"
   repository: "https://bpschmitt.github.io/microservices-sandbox-helm-chart"
 - name: superheroes
-  version: "1.0.1"
+  version: "1.0.2"
   repository: "https://bpschmitt.github.io/microservices-sandbox-helm-chart"
