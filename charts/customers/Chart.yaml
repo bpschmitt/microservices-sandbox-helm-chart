@@ -1,6 +1,6 @@
 apiVersion: v2
 name: customers
-description: A Helm chart for Kubernetes
+description: Microservices Sandbox - Customers Service
 
 # A chart can be either an 'application' or a 'library' chart.
 #
