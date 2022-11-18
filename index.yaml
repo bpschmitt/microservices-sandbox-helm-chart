@@ -22,6 +22,30 @@ entries:
     urls:
     - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/gateway-1.0.3/gateway-1.0.3.tgz
     version: 1.0.3
+  microservices-sandbox:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-11-18T05:00:36.68082358Z"
+    dependencies:
+    - name: mysql
+      repository: https://bpschmitt.github.io/microservices-sandbox-helm-chart
+      version: 1.0.3
+    - name: customers
+      repository: https://bpschmitt.github.io/microservices-sandbox-helm-chart
+      version: 1.0.3
+    - name: gateway
+      repository: https://bpschmitt.github.io/microservices-sandbox-helm-chart
+      version: 1.0.3
+    - name: superheroes
+      repository: https://bpschmitt.github.io/microservices-sandbox-helm-chart
+      version: 1.0.3
+    description: A Helm chart for the New Relic Microservices Sandbox
+    digest: 9ceccfeb0ae85c7dc8e3fecfc04314b26ce1e194e212e32e15b8084d30e2f583
+    name: microservices-sandbox
+    type: application
+    urls:
+    - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/microservices-sandbox-1.0.4/microservices-sandbox-1.0.4.tgz
+    version: 1.0.4
   mysql:
   - apiVersion: v2
     appVersion: v1.0.0
@@ -44,4 +68,4 @@ entries:
     urls:
     - https://github.com/bpschmitt/microservices-sandbox-helm-chart/releases/download/superheroes-1.0.3/superheroes-1.0.3.tgz
     version: 1.0.3
-generated: "2022-11-18T04:53:44.183077677Z"
+generated: "2022-11-18T05:00:36.68083588Z"
